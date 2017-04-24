@@ -1,0 +1,21 @@
+{
+    "appenders": [{
+        "type": "console"
+    }, {
+        "type": "file",
+        "filename": "logs/server.log",
+        "maxLogSize": 2048000,
+        "category": "server"
+    }, {
+        "type": "file",
+        "filename": "logs/weblog.log",
+        "maxLogSize": 2048000,
+        "category": "weblog"
+    }, {
+        "type": "file",
+        "filename": "logs/console.log",
+        "maxLogSize": 2048000,
+        "category": "console"
+    }],
+    "replaceConsole": "true"
+}

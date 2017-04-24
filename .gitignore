@@ -1,0 +1,18 @@
+/node_modules/
+<<<<<<< HEAD
+*.log
+.DS_Store
+*.zip
+.idea
+=======
+/test-code/
+/coffee-lib/
+/.idea/
+npm-debug.log
+.DS_Store
+*.zip
+bulid-coffee.sh
+testpost.py
+*.log
+
+>>>>>>> 46276b08f248641cc46d36d3de5074900a22b8b9

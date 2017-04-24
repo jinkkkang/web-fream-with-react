@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    .row
+        #head.col-md-12
+        h4.text-center #{showname}
+        #menu.col-md-2.col-xs-2.col-sm-2
+        #show.col-md-10.col-xs-10.col-sm-10
+        script(type='text/babel', src='/jsx/menu.jsx')
+        script(type='text/babel', id="mainjsx", src='#{jsxfile}')
+      
